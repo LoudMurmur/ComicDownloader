@@ -1,0 +1,31 @@
+[PROXY]
+proxy.required = False
+proxy.protocol = http
+proxy.host = 127.0.0.1
+proxy.port = 8888
+
+[witchy]
+name = witchy
+start_url = http://www.witchycomic.com/?comic=page-1
+
+localisationStringForNextLink = <link rel="next" href=
+localisationOffsetForNextLink = 0
+quoteNumberForNextLink = 3
+
+localisationStringForImageLink = <div id="comic">
+localisationOffsetForImageLink = 1
+quoteNumberForImageLink = 5
+
+[demons]
+name = demons
+start_url = http://www.shigabooks.com/index.php?page=001
+
+appenNextLinkTo = http://www.shigabooks.com/index.php
+localisationStringForNextLink = <td height="22" colspan="2" valign="top" bgcolor="#E1E1E1">
+localisationOffsetForNextLink = 1
+quoteNumberForNextLink = 1
+
+appendNextImageLinkTo = http://www.shigabooks.com/
+localisationStringForImageLink = <!-- Comic goes here!!! -->
+localisationOffsetForImageLink = 4
+quoteNumberForImageLink = 1
